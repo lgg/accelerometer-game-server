@@ -1,0 +1,11 @@
+html, body{
+    position: relative;
+}
+
+.animation{
+    width: 60vw;
+    height: 70vh;
+    margin: 0 auto;
+    background: url('img/phone/phone_150.gif') center no-repeat;
+    background-size: contain;
+}

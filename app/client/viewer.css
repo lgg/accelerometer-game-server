@@ -1,0 +1,36 @@
+h1{
+    margin-left: 20px;
+}
+
+.status{
+    padding: 0 20px 30px;
+}
+
+.score{
+    padding: 20px 30px;
+}
+
+.race{
+    position: relative;
+    background: url('img/view/start.png') left bottom no-repeat repeat,
+        url('img/view/finish.png') right bottom no-repeat repeat,
+        url('img/view/road.png') bottom;
+    /*width: calc(100vw - 30px);*/
+    width: 100vw;
+    height: auto;
+    margin: 0 auto;
+    /*padding: 0 60px;*/
+}
+
+.player{
+    position: absolute;
+    height: 60px;
+    width: 30px;
+    left: 0;
+    animation: .1s;
+
+    margin-left: 35px;
+    margin-right: 60px;
+}
+
+

@@ -1,0 +1,32 @@
+{
+  "name": "accelerometer-game-server",
+  "version": "1.0.0",
+  "engines": {
+    "node": "6.5.0"
+  },
+  "description": "",
+  "main": "app/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node app/server.js --debug=socket.io*",
+    "serve": "node app/server.js",
+    "start": "node app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mireadev/accelerometer-game-server.git"
+  },
+  "author": "littleguga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mireadev/accelerometer-game-server/issues"
+  },
+  "homepage": "https://github.com/mireadev/accelerometer-game-server#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "express": "^4.13.4",
+    "gyronorm": "^2.0.4",
+    "node-static": "^0.7.7",
+    "socket.io": "^1.4.6"
+  }
+}
